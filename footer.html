@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+<link rel="stylesheet" href="PHP INTRO.php">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+      
+       <div class="container bg-white " style="margin-left:225px; ">   
+    <div class="row">
+        <form role="form" class="col-md-9 go-right" action="Commentbox.php" method="POST">
+            <h2>Leave a Comment</h2>
+            <p> We welcome your valuable comment and  will try to implement your suggestion.</p>
+            <div class="form-group">
+            <input id="name" name="myname" type="text" class="form-control" required>
+            <label for="name">Your Name<span class="required">*</span></label>
+        </div>
+        <div class="form-group">
+            <input id="email" name="myemail" type="email" class="form-control" required>
+            <label for="email">Email Address<span class="required">*</span></label>
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="Commentcontent" class="form-control" style="height: 150px" required></textarea>
+            <label for="message">Comment<span class="required">*</span></label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" value="POST">Submit</button>
+        </div>
+        </form>
+    </div>
+</div>
+<!--   checking the info-->
+                                                             
+                                                                                                                                                                                                               
+<!-- feedbackform    
+                              -->               
+        <footer class="page-footer">
+    <hr>
+    <div class="text-center text-white" style="height: 100px; padding: 10px;background-color: black">
+      
+        <p>© 2020 Copyright:
+        <h2>Java PHP Point.com</h2>
+        <p/>
+  </div>
+    </footer>
+
+</body>
+</html>
